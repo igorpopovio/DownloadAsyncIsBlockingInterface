@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DownloadAsyncIsBlockingInterface"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Async tasks"
+        Height="450"
+        Width="800">
     <Grid>
-        
+        <Button x:Name="button"
+                Content="Do task!"
+                Click="Button_Click" />
     </Grid>
 </Window>
